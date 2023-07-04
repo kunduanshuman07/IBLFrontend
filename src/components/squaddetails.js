@@ -125,12 +125,12 @@ const Squaddetail = () => {
                     </Button>
                   </div> */}
                   <div>
-                    <p>RATING</p>
+                    {/* <p>RATING</p> */}
                     <Button
                       className="btn-success"
                       style={{ textTransform: 'uppercase' }}
                     >
-                      {player.rating}
+                      RATING: {player.rating}
                     </Button>
                   </div>
                 </div>

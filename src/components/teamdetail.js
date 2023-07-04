@@ -103,7 +103,7 @@ const TeamDetail = (props) => {
                   Player Count
                 </CardSubtitle>
                 <CardText className="playerCount">{team.totalCount}</CardText>
-                <div className="pointSection">
+                {/* <div className="pointSection">
                   <div className="point-div">
                     <div className="pointText">Batsman</div>
                     <div className="pointCircle">{team.batsmanCount}</div>
@@ -116,7 +116,7 @@ const TeamDetail = (props) => {
                     <div className="pointText">All Rounder</div>
                     <div className="pointCircle">{team.allrounderCount}</div>
                   </div>
-                </div>
+                </div> */}
                 <Link to={`/squaddetail/${team.id}`}>
                   <Button>Team Details</Button>
                 </Link>
